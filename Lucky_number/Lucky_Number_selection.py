@@ -25,6 +25,7 @@ def Vehicle_Lucky_Number_Generator(Required_Lucky_Number,Any_Unwanted_Number):
             Final_List.append(Number)
     print(len(Final_List))
     return(Final_List)
-print(Vehicle_Lucky_Number_Generator(8,9))
+    
+Vehicle_Lucky_Number_Generator(4,9)
   
     

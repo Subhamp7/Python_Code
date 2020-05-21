@@ -1,0 +1,4 @@
+Create a list with 5 tuples. Each tuple should have the following elements ('Book Name', 'Published Year', 'Price'). 
+
+a.Sort the list based on Price and Book Name. 
+b.In the resulting list, reshuffle each tuple to have the following order of elements ('Published Year', 'Price',   'Book Name') Use list comprehension wherever possible.
