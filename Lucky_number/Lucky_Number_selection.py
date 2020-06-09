@@ -4,8 +4,10 @@ Created on Mon Feb 10 17:27:58 2020
 
 @author: subham
 """
-
-def Vehicle_Lucky_Number_Generator(Required_Lucky_Number,Any_Unwanted_Number):
+from pop_up import index_name
+def Vehicle_Lucky_Number_Generator():
+    Required_Lucky_Number=index_name('Required')
+    Any_Unwanted_Number=index_name('Unwanted')
     Final_List=[]
     My_List=9999
     for index1 in range(0,My_List):
@@ -23,9 +25,9 @@ def Vehicle_Lucky_Number_Generator(Required_Lucky_Number,Any_Unwanted_Number):
             Var2+=List2[index3]
         if(Var2 != Any_Unwanted_Number and Var2==Required_Lucky_Number):
             Final_List.append(Number)
-    print(len(Final_List))
-    return(Final_List)
+    print(('There are {} number of combinations available: \n').format(len(Final_List)))
+    print(Final_List)
     
-Vehicle_Lucky_Number_Generator(4,9)
+Vehicle_Lucky_Number_Generator()
   
     
